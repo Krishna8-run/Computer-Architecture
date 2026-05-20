@@ -209,7 +209,11 @@ ghdl -e buffer_tb
 ```bash
 ghdl -r buffer_tb --vcd=simulation.vcd
 ```
+# Output Waveform
 
+![Simulation Output](image.png)
+
+The waveform generated in GTKWave verifies that the output signal `tb_Y` correctly follows the input signal `tb_A`.
 ---
 
 # Viewing Waveform in GTKWave

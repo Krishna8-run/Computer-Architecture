@@ -37,6 +37,7 @@ ghdl -r GATES_TB --vcd=simulation.vcd
 
 # 4. Open the waveform in GTKWave for verification
 gtkwave simulation.vcd
+'''
 
 Expected Truth Table
 

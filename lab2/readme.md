@@ -18,6 +18,9 @@ NOR   nor           Y = A + B
 XOR   xor           Y = A ⊕ B
 XNOR   xnor         Y = A ⊕ B
 
+<img width="1253" height="793" alt="image" src="https://github.com/user-attachments/assets/d8c8e3c6-6a36-4659-88c3-4aca7f30a359" />
+
+
 ## Simulation Steps
 
 To analyze all design files together, elaborate the design, run the testbench, and view the waveforms in GTKWave, execute the following commands in your terminal:

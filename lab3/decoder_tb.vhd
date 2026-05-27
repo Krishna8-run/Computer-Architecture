@@ -6,7 +6,7 @@ end entity DECODER_TB;
 
 architecture Simulation of DECODER_TB is
     -- Stimulus signals
-    signal A  : std_logic_vector(1 downto 0) := "00";
+    signal At  : std_logic_vector(1 downto 0) := "00";
     signal EN : std_logic := '1';
     signal Y  : std_logic_vector(3 downto 0);
 begin
@@ -14,7 +14,7 @@ begin
     -- Instantiate the Design Under Test (DUT)
     DUT : entity work.DECODER_2TO4 
         port map (
-            A  => A, 
+            A  => At, 
             EN => EN, 
             Y  => Y
         );

@@ -47,6 +47,8 @@ A multiplexer (MUX) is a combinational circuit that selects one of several input
 | 1  | 0  | I2 |
 | 1  | 1  | I3 |
 
+![4-to-1 Multiplexer](mux.png)
+
 ---
 
 ## What are Demultiplexers?
@@ -86,6 +88,8 @@ A demultiplexer (DEMUX) is a combinational circuit that receives data on a singl
         └─────────────────┘
                            ├──── Y3
 ```
+
+![1-to-4 Demultiplexer](demux.png)
 
 **Circuit Logic:**
 - Y0 is active (receives D) when S1=0 and S0=0
